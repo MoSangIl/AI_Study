@@ -1,2 +1,0 @@
-#MachineLearning
-Practice MachineLearning Algorithms
