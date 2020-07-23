@@ -1,9 +1,9 @@
 # Bayes' Theorem (베이즈 정리)
 
-## $ P(B|A) = (P(A|B)\cdot P(B)) \div P(A) $
+##  P(B|A) = (P(A|B)\cdot P(B)) \div P(A) 
 
 ### proof
-$ P(A|B) = P(A\cap B)\div P(B) $
+ P(A|B) = P(A\cap B)\div P(B) 
 $ P(A\cap B) = P(A|B)\cdot p(B) $
 $ P(B\cap A) = P(B|A)\cdot p(A) $
 따라서, $ P(B|A)\cdot p(A) = P(A|B)\cdot p(B) $
