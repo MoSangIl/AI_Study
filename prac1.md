@@ -29,5 +29,5 @@ Y 와 X 값에 각 실제값들을 대입하여 w'. b' 를 계산한다.
 그리고 예측 값 Y' = w' x X + b'으로 하여 주어진 X 값에 대해 예측값을 계산하는 방식인 것이다.
 
 DeepLearning Model
-![ModelStructure](./ModelStructure.png)
+![ModelStructure](./ModelStructure.PNG)
 
