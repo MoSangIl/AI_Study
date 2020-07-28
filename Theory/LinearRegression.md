@@ -26,3 +26,9 @@ convex function
 ![convex function](./ConvexFunction.gif)
 
 Convex Function 의 모양을 가지는 cost function 이어야 Gradient Descent 를 적용할 수 있다.  
+
+
+## Multi-variable linear regression
+
+**H(X) = XW **
+행렬 X x의 값들과, 행렬 W w 가중치의 값들의 곱으로 나타낸다.
