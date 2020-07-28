@@ -23,6 +23,6 @@ Mean Square Error 함수는 곧 2차함수이다.
 ## Convex function
 
 convex function
-[!convex function](./ConvexFunction.gif)
+![convex function](./ConvexFunction.gif)
 
 Convex Function 의 모양을 가지는 cost function 이어야 Gradient Descent 를 적용할 수 있다.  
