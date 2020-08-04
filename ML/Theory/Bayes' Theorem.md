@@ -3,11 +3,9 @@
 ##  $P(B|A) = (P(A|B)\cdot P(B)) \div P(A)$ 
 
 ### proof
-$P(A|B) = P(A\cap B)\div P(B)$ 
-$P(A\cap B) = P(A|B)\cdot p(B)$
-$P(B\cap A) = P(B|A)\cdot p(A)$
-따라서, $P(B|A)\cdot p(A) = P(A|B)\cdot p(B)$
-즉, $P(B|A) = (P(A|B)\cdot P(B)) \div P(A)$
+![equation](https://latex.codecogs.com/gif.latex?P(A|B)&space;=&space;P(A\cap&space;B)\div&space;P(B)&space;\\&space;P(A\cap&space;B)&space;=&space;P(A|B)\cdot&space;p(B)&space;\\&space;P(B\cap&space;A)&space;=&space;P(B|A)\cdot&space;p(A))
+따라서, 
+![equation](https://latex.codecogs.com/gif.latex?P(B|A)\cdot&space;p(A)&space;=&space;P(A|B)\cdot&space;p(B)&space;\\&space;P(B|A)&space;=&space;(P(A|B)\cdot&space;P(B))&space;\div&space;P(A))
 
 
 ### Example
@@ -16,8 +14,4 @@ $P(B\cap A) = P(B|A)\cdot p(A)$
 P(spam) 스팸 메일 = 3 / 10  
 P(free) 'free'문구가 들어간 메일 = 4 / 10   
 P(free|spam) 스펨 매일 중 'free' 문구가 들어간 메일 = 2 / 3   
-P(spam|free) 'free' 문구가 들어간 메일이 spam 일 확율 = $P(free|spam) \cdot P(free) \div P(spam) = 0.5$  
-
-<script type="text/javascript" 
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
-</script>
+P(spam|free) 'free' 문구가 들어간 메일이 spam 일 확율 = P(free|spam) * P(free) / P(spam) = 0.5
